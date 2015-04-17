@@ -5641,6 +5641,8 @@ button.close {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+  #teaser h1 {
+    text-align: center; }
   #teaser img {
     margin: 20px 0 80px 0;
     max-height: 400px; }
