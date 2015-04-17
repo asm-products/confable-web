@@ -1,0 +1,43 @@
+{{define "layout"}}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Confable</title>
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#"><img src="/images/logo.png" /></a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul id="email" class="nav navbar-nav navbar-right">
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input id="email-input" type="text" class="form-control" placeholder="Email">
+                            </div>
+                            <button id="submit-email" type="submit" class="btn btn-alert btn-default">Request Invite</button>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div text-center>
+                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 col-lg-offset-3 col-md-offset-3">
+                    <h1>Beautiful, scalable, managed websites exclusively for conferences.</h1>
+                </div>
+            </div>
+            <div id="teaser" class="col-lg-12 text-center">
+                <img src="/images/confable_logo_01.png" />
+                <!--script type="text/javascript" src="js/bundle.js" charset="utf-8"></script-->
+            </div>
+        </div>
+    </body>
+</html>
+{{end}}
