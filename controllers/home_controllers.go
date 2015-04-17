@@ -2,7 +2,7 @@ package controllers
 
 import (
     "net/http"
-    "github.com/bmelton/netsuites/templates"
+    "github.com/asm-products/confable-web/templates"
     "github.com/gorilla/mux"
 )
 

@@ -3,11 +3,10 @@ package main
 import (
     "os"
     "net/http"
-    // "github.com/bmelton/netsuites/test"
-    "github.com/bmelton/netsuites/controllers"
-    // "github.com/bmelton/netsuites/addon"
-    "github.com/bmelton/netsuites/templates"
-    // "github.com/bmelton/netsuites/models"
+    "github.com/asm-products/confable-web/controllers"
+    // "github.com/asm-products/confable-web/addon"
+    "github.com/asm-products/confable-web/templates"
+    // "github.com/asm-products/confable-web/models"
     "github.com/codegangsta/negroni"
     "github.com/gorilla/mux"
 )
