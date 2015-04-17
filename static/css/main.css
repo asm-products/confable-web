@@ -5635,20 +5635,20 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-body {
+#teaser {
   background: url(/images/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-
-#teaser img {
-  margin: 20px 0 80px 0;
-  max-height: 400px; }
+  #teaser img {
+    margin: 20px 0 80px 0;
+    max-height: 400px; }
 
 nav.navbar {
   background-color: white !important;
-  height: 95px !important; }
+  height: 95px !important;
+  margin: 0; }
 
 a.navbar-brand img {
   margin-top: 5px;
@@ -5672,24 +5672,8 @@ button#submit-email {
 h1 {
   line-height: 1.4em; }
 
-body {
-  background: url(/images/bg.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-#teaser img {
-  margin: 20px 0 80px 0;
-  max-height: 400px; }
-
-nav.navbar {
-  background-color: white !important;
-  height: 95px !important; }
-
-a.navbar-brand img {
-  margin-top: 5px;
-  max-height: 48px; }
+footer {
+  padding: 30px 0 30px 0; }
 
 ul#email {
   margin-top: 20px; }
@@ -5705,6 +5689,3 @@ ul#email {
   color: white;
   text-transform: uppercase;
   border-radius: 0px !important; }
-
-h1 {
-  line-height: 1.4em; }
