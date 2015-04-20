@@ -4,11 +4,11 @@ package models
 //  "github.com/go-gorp/gorp"
 // _ "github.com/lib/pq"
 
-import (
-    "database/sql"
-    "log"
-    "os"
-)
+// import (
+// "database/sql"
+// "log"
+// "os"
+// )
 
 // var Dbm *gorp.DbMap
 
