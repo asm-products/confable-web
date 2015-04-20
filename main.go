@@ -17,9 +17,6 @@ func main() {
         port = "3000"
     }
     host := os.Getenv("HOST")
-    if host == "" {
-        host = "localhost"
-    }
 
     templates.Init("templates")
     // models.InitDb(os.Getenv("DATABASE_URL"))
