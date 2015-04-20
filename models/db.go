@@ -2,12 +2,12 @@ package models
 
 // Add to imports.
 //  "github.com/go-gorp/gorp"
+// _ "github.com/lib/pq"
 
 import (
     "database/sql"
     "log"
     "os"
-    _ "github.com/lib/pq"
 )
 
 var Dbm *gorp.DbMap

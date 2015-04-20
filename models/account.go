@@ -2,6 +2,7 @@ package models
 
 // This belongs in the imports, but, y'know.  Weird, right? 
 // "code.google.com/p/go.crypto/bcrypt"
+// "github.com/dgrijalva/jwt-go"
 
 import (
     "fmt"
@@ -9,7 +10,6 @@ import (
     "os"
     "regexp"
     "time"
-    "github.com/dgrijalva/jwt-go"
 )
 
 var letters = []rune("abcdefghijklmnopqrstuvwxyz0123456789")
