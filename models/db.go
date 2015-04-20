@@ -4,7 +4,7 @@ import (
     "database/sql"
     "log"
     "os"
-    "github.com/go-gorp/gorp"
+    # "github.com/go-gorp/gorp"
     _ "github.com/lib/pq"
 )
 
