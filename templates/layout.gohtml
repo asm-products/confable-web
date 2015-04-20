@@ -7,54 +7,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Confable</title>
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" type="text/css" href="/css/main.css" />
+        <link rel="stylesheet" type="text/css" href="/css/main.min.css" />
     </head>
-    <body>
-        <nav class="navbar navbar-default">
-            <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#"><img src="/images/logo.png" /></a>
-                </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul id="email" class="nav navbar-nav navbar-right">
-                        <div id="mc_embed_signup">
-                            <form action="//appdiem.us2.list-manage.com/subscribe/post?u=de477380c709953963263d7d6&amp;id=633e212f50" 
-                                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" 
-                                class="validate navbar-form navbar-left" target="_blank" novalidate>
-                                <div id="mc_embed_signup_scroll">
-                                    <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="email address" required>
-                                    <div style="position: absolute; left: -5000px;"><input type="text" name="b_de477380c709953963263d7d6_633e212f50" tabindex="-1" value=""></div>
-                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-alert">
-                                </div>
-                            </form>
-                        </div>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div id="teaser">
-            <div class="container">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div text-center>
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-2">
-                            <h1>Beautiful, scalable, managed websites exclusively for conferences.</h1>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 text-center">
-                        <img src="/images/confable_logo_01.png" />
-                    </div>
-                </div>
-            </div>
-        </div>
-        <footer>
-            <div class="container">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-right">
-                    <a href="https://assembly.com/confable">
-                        <img src="https://treasure.assembly.com/assets/badges/flag_text-6cfc91728f9f0090d1688e4f0d41a639.svg" width=243px height=41px />
-                    </a>
-                </div>
-            </div>
-        </footer>
+    <body ng-app="Confable">
+        <div ui-view id="content"></div>
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="/js/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="/js/dist/out.min.js"></script>
 </html>
 {{end}}

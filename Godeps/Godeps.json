@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/bmelton/netsuites",
+	"ImportPath": "github.com/asm-products/confable-web",
 	"GoVersion": "go1.4.2",
 	"Deps": [
 		{

@@ -31,7 +31,7 @@ func main() {
     // new(controllers.HerokuResourcesController).Init(r)
     new(controllers.HomeController).Init(r)
     // new(controllers.ImagesController).Init(r)
-    // new(controllers.RegistrationsController).Init(r)
+    new(controllers.TestController).Init(r)
     // new(controllers.SessionsController).Init(r)
     // new(controllers.SsoSessionsController).Init(r)
 
