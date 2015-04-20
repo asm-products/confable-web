@@ -6,7 +6,7 @@ import (
     "os"
     "regexp"
     "time"
-    # "code.google.com/p/go.crypto/bcrypt"
+    // "code.google.com/p/go.crypto/bcrypt"
     "github.com/dgrijalva/jwt-go"
 )
 
