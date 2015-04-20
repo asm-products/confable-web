@@ -1,12 +1,14 @@
 package models
 
+// This belongs in the imports, but, y'know.  Weird, right? 
+// "code.google.com/p/go.crypto/bcrypt"
+
 import (
     "fmt"
     "math/rand"
     "os"
     "regexp"
     "time"
-    // "code.google.com/p/go.crypto/bcrypt"
     "github.com/dgrijalva/jwt-go"
 )
 

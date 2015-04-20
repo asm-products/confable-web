@@ -1,10 +1,12 @@
 package models
 
+// Add to imports.
+//  "github.com/go-gorp/gorp"
+
 import (
     "database/sql"
     "log"
     "os"
-    //  "github.com/go-gorp/gorp"
     _ "github.com/lib/pq"
 )
 
